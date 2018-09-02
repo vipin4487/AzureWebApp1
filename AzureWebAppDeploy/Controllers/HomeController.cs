@@ -10,6 +10,7 @@ namespace AzureWebAppDeploy.Controllers
     {
         public ActionResult Index()
         {
+            System.Diagnostics.Trace.Write("Home Controller Executed");
             return View();
         }
 
